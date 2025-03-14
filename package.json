@@ -1,0 +1,22 @@
+{
+  "name": "assessment-1-backend",
+  "version": "1.0.0",
+  "description": "Day of the year",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "PastorNan",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^3.6.0",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
